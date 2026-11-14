@@ -26,13 +26,13 @@ namespace Exercise8_4
         static void Main()
         {
             Console.WriteLine("int:");
-            CheckFormattable(42);
+            CheckFormattable(92);
             Console.WriteLine("double:");
             CheckFormattable(3.14);
             Console.WriteLine("DateTime:");
             CheckFormattable(DateTime.Now);
             Console.WriteLine("string:");
-            CheckFormattable("привет");
+            CheckFormattable("какдела");
         }
     }
 }
