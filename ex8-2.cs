@@ -51,20 +51,20 @@ class Program
     static void Main()
     {
         Song song1 = new Song();
-        song1.SetName("Bohemian Rhapsody");
-        song1.SetAuthor("Queen");
+        song1.SetName("Группа крови");
+        song1.SetAuthor("Кино");
 
         Song song2 = new Song();
-        song2.SetName("Imagine");
-        song2.SetAuthor("John Lennon");
+        song2.SetName("Фантом");
+        song2.SetAuthor("Гражданская оборона");
 
         Song song3 = new Song();
-        song3.SetName("Hotel California");
-        song3.SetAuthor("Eagles");
+        song3.SetName("Бесполезно");
+        song3.SetAuthor("Валентин Стрыкало");
 
         Song song4 = new Song();
-        song4.SetName("Stairway to Heaven");
-        song4.SetAuthor("Led Zeppelin");
+        song4.SetName("Выхода нет");
+        song4.SetAuthor("Сплин");
 
         song2.SetPrev(song1);
         song3.SetPrev(song2);
