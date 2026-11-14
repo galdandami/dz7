@@ -19,11 +19,10 @@ namespace Exercise8_2
 
         static void Main()
         {
-            Console.WriteLine(Reverse("Привет"));
-            Console.WriteLine(Reverse("Hello, World!"));
-            Console.WriteLine(Reverse("12345"));
-            Console.WriteLine(Reverse("а роза упала на лапу азора"));
-            Console.WriteLine("[" + Reverse("") + "]");
+            Console.WriteLine(Reverse("Данис"));
+            Console.WriteLine(Reverse("Привет, Мир"));
+            Console.WriteLine(Reverse("123456789"));
+            Console.WriteLine(Reverse("леша на полке клопа нашел"));
         }
     }
 }
